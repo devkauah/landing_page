@@ -5,6 +5,12 @@ export interface CabecalhoProps {
 
 export default function Cabecalho(props:CabecalhoProps) {
     return (
-        <header className={`bg-green-500 ${ props.className ?? '' }`}>Cabeçalho</header>
+        <header 
+            className={
+                `flex items-center px-7
+                border-b border-zinc-800
+                ${ props.className ?? '' }`
+            }
+        >Cabeçalho</header>
     )
 }

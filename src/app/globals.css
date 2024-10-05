@@ -22,7 +22,7 @@ body {
 
 @layer utilities {
   .boxed {
-    @apply mx-auto max-w-6xl
+    @apply mx-auto max-w-7xl w-full;
   }
 }
 
