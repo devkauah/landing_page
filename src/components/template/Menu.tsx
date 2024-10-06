@@ -12,13 +12,13 @@ export default function Menu(props:MenuProps) {
             <nav className="flex flex-col gap-6">
                 <MenuGrupo label="Box Model">
                     <MenuItem label="Padding" href="/box-model/padding"/>
-                    <MenuItem label="Margin" href="/margin"/>
-                    <MenuItem label="Border" href="/border"/>
+                    <MenuItem label="Margin" href="/box-model/margin"/>
+                    <MenuItem label="Border" href="/box-model/border"/>
                 </MenuGrupo>
                 <MenuGrupo label="Display">
-                    <MenuItem label="Block" href="/block"/>
-                    <MenuItem label="Inline" href="/inline"/>
-                    <MenuItem label="Inline Block" href="/inline-block"/>
+                    <MenuItem label="Block" href="/display/block"/>
+                    <MenuItem label="Inline" href="/display/inline"/>
+                    <MenuItem label="Inline Block" href="/display/inline-block"/>
                 </MenuGrupo>
                 <MenuGrupo label="Flexbox">
                     <MenuItem label="Flex Container" href="/flex-container"/>
