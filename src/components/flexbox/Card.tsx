@@ -1,4 +1,4 @@
-import { IconStarFilled } from "@tabler/icons-react"
+import { IconShoppingCart, IconStarFilled } from "@tabler/icons-react"
 import Image from "next/image"
 
 export default function Card() {
@@ -41,6 +41,10 @@ export default function Card() {
                     </div>
                 </div>
             </div>
+            <button className="botao flex justify-center items-center gap-2">
+                <IconShoppingCart size={20} />
+                <span>Comprar</span>
+            </button>
         </div>
     )
 }
