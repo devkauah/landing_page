@@ -11,7 +11,7 @@ export default function Menu(props:MenuProps) {
         <aside className={`py-7 ${ props.className ?? '' }`}>
             <nav className="flex flex-col gap-6">
                 <MenuGrupo label="Box Model">
-                    <MenuItem label="Padding" href="/padding"/>
+                    <MenuItem label="Padding" href="/box-model/padding"/>
                     <MenuItem label="Margin" href="/margin"/>
                     <MenuItem label="Border" href="/border"/>
                 </MenuGrupo>
