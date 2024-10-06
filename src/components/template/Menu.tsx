@@ -24,6 +24,7 @@ export default function Menu(props:MenuProps) {
                     <MenuItem label="Flex Container" href="/flex-container"/>
                     <MenuItem label="Flex Item" href="/flex-item"/>
                     <MenuItem label="Flex Direction" href="/flex-direction"/>
+                    <MenuItem label="Exemplo de Card" href="/flexbox/card"/>
                 </MenuGrupo>
                 <MenuGrupo label="Grid">
                     <MenuItem label="Grid Container" href="/grid-container"/>
