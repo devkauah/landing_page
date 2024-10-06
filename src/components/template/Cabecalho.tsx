@@ -9,7 +9,7 @@ export default function Cabecalho(props: CabecalhoProps) {
   return (
     <header
       className={`
-        flex justify-between items-center px-7
+        flex justify-between items-center
         border-b border-zinc-800
         ${props.className ?? ''}
       `}

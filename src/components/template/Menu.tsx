@@ -8,7 +8,7 @@ export interface MenuProps {
 
 export default function Menu(props:MenuProps) {
     return (
-        <aside className={`px-7 ${ props.className ?? '' }`}>
+        <aside className={`py-7 ${ props.className ?? '' }`}>
             <nav className="flex flex-col gap-6">
                 <MenuGrupo label="Box Model">
                     <MenuItem label="Padding" href="/padding"/>
