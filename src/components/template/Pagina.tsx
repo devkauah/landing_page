@@ -5,6 +5,7 @@ import Menu from "./Menu";
 
 interface PaginaProps {
     children?:ReactNode;
+    className?:string;
 };
 
 export default function Pagina(props:PaginaProps) {
@@ -13,7 +14,14 @@ export default function Pagina(props:PaginaProps) {
             <Cabecalho className="h-20"/>
             <div className="flex-1 flex boxed">
                 <Menu className="hidden lg:block lg:w-64 xl:w-72 w-72"/>
-                <main className="flex-1 py-7">{ props.children }</main>
+                <main 
+                    className={`
+                        flex-1 py-7
+                        ${props.className ?? ''}
+                    `}
+                >
+                    { props.children }
+                </main>
             </div>
             <Rodape className="h-14"/>
         </div>
