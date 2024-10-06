@@ -6,7 +6,7 @@ export interface MenuProps {
 
 export default function Menu(props:MenuProps) {
     return (
-        <aside className={`bg-blue-500 ${ props.className ?? '' }`}>
+        <aside className={`${ props.className ?? '' }`}>
             <nav>Menu</nav>
         </aside>
     )

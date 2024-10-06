@@ -36,10 +36,10 @@ import {
         <DropdownMenuTrigger asChild>
           <div 
             className="
-              flex items-center justify-center
+              flex items-center justify-center cursor-pointer
               w-11 h-11 bg-purple-500 rounded-full
           ">
-            <span className="font-bold">US</span>
+            <span className="text-sm font-bold">US</span>
           </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56">
